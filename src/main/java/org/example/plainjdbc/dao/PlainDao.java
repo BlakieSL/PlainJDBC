@@ -10,6 +10,6 @@ public interface PlainDao extends CoreDao {
     Author findById(Long id);
     String findFirstNameById(Long id);
     Author create(Author author);
-    void update(Author author);
-    void delete(Long id);
+    Author update(Author author);
+    boolean delete(Long id);
 }
